@@ -2,19 +2,39 @@
     margin: 0;
     padding: 0;
 }
+/*
+
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lato', sans-serif;
+
+*/
+.corpo-site{
+    background-color: peachpuff;
+    height: auto;
+    padding: 15px;
+}
+.corpo-site p{
+    font-family: 'Lato', sans-serif;
+    margin: 15px 20px;
+}
 .topo-site{
     margin: 0 auto;
     background-color: rgb(49, 173, 101);
     width: 80%;
-    height: 600px;
+    height: auto;
+    font-family: 'Oswald', sans-serif;
 }
 a{
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: bold;
     padding: 10px;
 }
 a:hover{
+    font-weight: bold;
     color: white;
-    text-decoration: underline white;
+    text-decoration: blink;
+    /*text-decoration: underline white;*/
 }
